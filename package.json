@@ -1,0 +1,37 @@
+{
+  "name": "placeholder-class",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Create a random class name that implements placeholder pseudoclass styling in CSS",
+  "license": "MIT",
+  "repository": "bendrucker/placeholder-class",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "css",
+    "placeholder",
+    "style",
+    "pseudoclass",
+    "input",
+    "random"
+  ],
+  "devDependencies": {
+    "proxyquire": "~1.7.4",
+    "standard": "^5.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "cuid": "~1.3.8",
+    "insert-styles": "~1.0.0",
+    "style-css": "~1.0.1"
+  }
+}
